@@ -5,17 +5,15 @@ const output = document.querySelector("#output")
 
 function calculateButtonClickHandler(){
    const hypotenuse = calculateHypotenuse(Number(baseValue[0].value),Number(baseValue[1].value))
-   
-   output.innerText = "The length of hypotenuse = "+hypotenuse
 }
 
 function calculateHypotenuse(baseA,baseB){
     if(baseA > 0 && baseB > 0){
         let b1 = baseA**2
         let b2 = baseB**2
-        return Math.sqrt(b1+b2)
+        output.innerText ="The length of hypotenuse = "+ Math.sqrt(b1+b2)
     } else {
-        return "Base value of a triangle must be greater than 0"
+        output.innerText = "Base value of a triangle must be greater than 0."
     }
 }
 
