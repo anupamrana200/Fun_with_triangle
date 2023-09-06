@@ -69,7 +69,6 @@
   /* lists */
 
   .list {
-    padding-top: 3rem;
     list-style: none;
     display: inline;
   }
@@ -122,7 +121,7 @@
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
-    margin-top:9rem;
+    margin-top:10rem;
 }
 
 .footer .link{
