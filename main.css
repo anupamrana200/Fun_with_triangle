@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+
+  :root {
+    --primary-color: #4f46e5;
+    --off-blue: #eef2ff;
+    --dark-gray: #6B7280;
+  }
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    background-color: var(--off-blue);
+  }
+
+  /* container */
+  .container {
+    padding: 0rem 1rem;
+  }
+
+  .container-quiz {
+    width: 90%;
+    margin:auto;
+    text-align: center;
+  }
+
+  .question-container{
+    margin-top: 3rem;
+
+  }
+
+  .container-center {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* links */
+  .link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
+  .btn{
+    margin: auto;
+    margin-top: 1.5rem;
+    width: 25%;
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    color: white;
+    padding: 0.6rem;
+    font-weight: bold;
+    border: none;
+  }
+
+  #submit-answer{
+    margin: auto;
+    margin-top: 1.5rem;
+    width: 18%;
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    color: white;
+    padding: 0.6rem;
+    font-weight: bold;
+    border: none;
+  }
+
+  /* lists */
+
+  .list {
+    list-style: none;
+    display: inline;
+  }
+
+  /* navigation */
+
+  .navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius : 1rem;
+  }
+
+  .navigation .nav-brand {
+    font-weight: bold;
+  }
+
+ .ul {
+    text-align: right;
+ }
+
+  .navigation .link {
+    color: white;
+  }
+
+  .navigation .link-active {
+    font-weight: bold;
+  }
+
+
+  .input-number {
+    text-align: center;
+    width: 20rem;
+    margin: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0.3rem;
+    border-radius: 0.8rem;
+  }
+
+  input{
+    border:2px solid var(--primary-color);
+  }
+
+
+  /* footer */
+.footer {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+    margin-top:6rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+
+.footer ul {
+    padding-inline-start: 0px;
+} 
+
+.footer .social-logo {
+  max-width: 30px;
+  margin: auto;
+}
+
+
+ 

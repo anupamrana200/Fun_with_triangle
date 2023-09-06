@@ -4,17 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hypotenuse | Funn with triangle</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/x-icon" href="images/triangle.png">
 </head>
 <body>
-    <div class="container">
+
+    <!-- Navbar Start -->
+    <nav class="navigation container">
+        <h1 class="nav-brand">FUN WITH TRIANGLE</h1>
+        <ul class="ul">
+            <li class="list">
+                <a class="link" href="index.html">Is Triangle? </a>
+            </li>
+            <li class="list">
+                <a class="link" href="quiz.html">Quiz</a>
+            </li>
+            <li class="list">
+                <a class="link link-active" href="hypotenuse.html">Hypotenuse</a>
+            </li>
+            <li class="list">
+                <a class="link" href="area.html">Area</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Navbar End -->
+
+    <div class="container-center">
         <h1 class="heading">Calculate Hypotenuse Of A Triangle</h1>
 
         <label for="value-a">Enter base value (a) = </label>
-        <input id="value-a" type="number" class="base-value" />
+        <input class="input-number" id="value-a" type="number" class="base-value" />
         <label for="value-b">Enter base value (b) = </label>
-        <input id="value-b" type="number" class="base-value" />
+        <input class="input-number" id="value-b" type="number" class="base-value" />
 
-        <button id="calculate-btn"> calculate</button>
+        <button class="btn" id="calculate-btn"> calculate</button>
 
         <h4 id="output"></h4>
 
@@ -22,7 +45,16 @@
 
     </div>
 
-
+    <!-- Footer Start -->
+    <footer class="footer">
+        <div class="footer-header">© | 2023 |ANUPAM RANA</div>
+        <ul>
+            <li class="list"><a href="https://github.com/anupamrana200" target = "blank"><img class = "social-logo" src="images/github.png"></a></li>
+            <li class="list"><a href="https://www.linkedin.com/in/anupam-rana-126143262/" target = "blank"><img class = "social-logo" src="images/linkedin.png"></a></li>
+            <li class="list"><a href="https://twitter.com/AnupamR00950404" target = "blank"><img class = "social-logo" src="images/twitter.png"></a></li>
+        </ul>
+    </footer>
+    <!-- Footer End -->
 
     <script src="hypotenuse.js"></script>
 </body>

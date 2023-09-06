@@ -3,26 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/x-icon" href="images/triangle.png">
     <title>Is Triangle? | Fun with Triangle</title>
 </head>
 <body>
+
+    <!-- Navbar Start -->
+    <nav class="navigation container">
+        <h1 class="nav-brand">FUN WITH TRIANGLE</h1>
+        <ul class="ul">
+            <li class="list">
+                <a class="link link-active" href="index.html">Is Triangle? </a>
+            </li>
+            <li class="list">
+                <a class="link" href="quiz.html">Quiz</a>
+            </li>
+            <li class="list">
+                <a class="link" href="hypotenuse.html">Hypotenuse</a>
+            </li>
+            <li class="list">
+                <a class="link" href="area.html">Area</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Navbar End -->
     
-    <div class="container">
+    <div class="container-center">
         <h1 class="heading">Angles of triangle</h1>
 
         <label for="angle1">Angle1</label>
-        <input id="angle1" type="number" class="angle-input" />
+        <input class="input-number" id="angle1" type="number" class="angle-input" />
         <label for="angle2">Angle2</label>
-        <input id="angle2" type="number" class="angle-input" />
+        <input class="input-number" id="angle2" type="number" class="angle-input" />
         <label for="angle3">Angle3</label>
-        <input id="angle3" type="number" class="angle-input" />
+        <input class="input-number" id="angle3" type="number" class="angle-input" />
 
-        <button id="is-triangle-btn">Is Trianle?</button>
+        <button class="btn" id="is-triangle-btn">Is Trianle?</button>
 
         <h3 id="output-message"></h3>
     </div>
 
-
+    <!-- Footer Start -->
+    <footer class="footer">
+        <div class="footer-header">© | 2023 |ANUPAM RANA</div>
+        <ul>
+            <li class="list"><a href="https://github.com/anupamrana200" target = "blank"><img class = "social-logo" src="images/github.png"></a></li>
+            <li class="list"><a href="https://www.linkedin.com/in/anupam-rana-126143262/" target = "blank"><img class = "social-logo" src="images/linkedin.png"></a></li>
+            <li class="list"><a href="https://twitter.com/AnupamR00950404" target = "blank"><img class = "social-logo" src="images/twitter.png"></a></li>
+        </ul>
+    </footer>
+    <!-- Footer End -->
 
     <script src="index.js"></script>
 </body>
