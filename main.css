@@ -69,6 +69,7 @@
   /* lists */
 
   .list {
+    margin-top: 1rem;
     list-style: none;
     display: inline;
   }
